@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73F200B1E445F831431EAE63 /* Pods_Attention_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0180078DDB45551B4A256472 /* Pods_Attention_Test.framework */; };
+		C1907C911E684BDD000ED2A3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1907C901E684BDD000ED2A3 /* GameKit.framework */; };
+		C1907CAF1E689C33000ED2A3 /* ButtonTitles.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1907CA31E689C33000ED2A3 /* ButtonTitles.strings */; };
+		C1907CB01E689C33000ED2A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1907CAD1E689C33000ED2A3 /* Localizable.strings */; };
+		C1907CB21E69184C000ED2A3 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1907CB11E69184C000ED2A3 /* MenuVC.swift */; };
 		C1C863171E623E120024669F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C863161E623E120024669F /* AppDelegate.swift */; };
 		C1C863191E623E120024669F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C863181E623E120024669F /* ViewController.swift */; };
 		C1C8631C1E623E120024669F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C8631A1E623E120024669F /* Main.storyboard */; };
@@ -15,6 +20,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0180078DDB45551B4A256472 /* Pods_Attention_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Attention_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA0E89609A1D63B5F5D0AD9 /* Pods-Attention Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Attention Test/Pods-Attention Test.release.xcconfig"; sourceTree = "<group>"; };
+		C1907C901E684BDD000ED2A3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C1907C961E689818000ED2A3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		C1907C971E689818000ED2A3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C1907C991E689886000ED2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C1907C9B1E689C33000ED2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907C9C1E689C33000ED2A3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907C9D1E689C33000ED2A3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907C9E1E689C33000ED2A3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907C9F1E689C33000ED2A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907CA01E689C33000ED2A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907CA11E689C33000ED2A3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ButtonTitles.strings"; sourceTree = "<group>"; };
+		C1907CA21E689C33000ED2A3 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		C1907CA41E689C33000ED2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CA51E689C33000ED2A3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CA61E689C33000ED2A3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CA71E689C33000ED2A3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CA81E689C33000ED2A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CA91E689C33000ED2A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CAA1E689C33000ED2A3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C1907CAB1E689C33000ED2A3 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1907CAC1E689C33000ED2A3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C1907CB11E69184C000ED2A3 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		C1C863131E623E120024669F /* Attention Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attention Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C863161E623E120024669F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C863181E623E120024669F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,7 @@
 		C1C8631D1E623E120024669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C863201E623E120024669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1C863221E623E120024669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAFB9B1DF976374587AA885 /* Pods-Attention Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Attention Test/Pods-Attention Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F200B1E445F831431EAE63 /* Pods_Attention_Test.framework in Frameworks */,
+				C1907C911E684BDD000ED2A3 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CF06F4AE0A0C8054C9D151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1907C901E684BDD000ED2A3 /* GameKit.framework */,
+				0180078DDB45551B4A256472 /* Pods_Attention_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1907CAE1E689C33000ED2A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1907CA31E689C33000ED2A3 /* ButtonTitles.strings */,
+				C1907CAD1E689C33000ED2A3 /* Localizable.strings */,
+			);
+			name = Resources;
+			path = "../../../../../Downloads/Localize-Swift-master/examples/LanguageSwitch/Sample";
+			sourceTree = "<group>";
+		};
 		C1C8630A1E623E120024669F = {
 			isa = PBXGroup;
 			children = (
 				C1C863151E623E120024669F /* Attention Test */,
 				C1C863141E623E120024669F /* Products */,
+				CAC0DFA9B93741ECD9273E76 /* Pods */,
+				84CF06F4AE0A0C8054C9D151 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +107,25 @@
 		C1C863151E623E120024669F /* Attention Test */ = {
 			isa = PBXGroup;
 			children = (
+				C1C863221E623E120024669F /* Info.plist */,
 				C1C863161E623E120024669F /* AppDelegate.swift */,
 				C1C863181E623E120024669F /* ViewController.swift */,
-				C1C8631A1E623E120024669F /* Main.storyboard */,
 				C1C8631D1E623E120024669F /* Assets.xcassets */,
 				C1C8631F1E623E120024669F /* LaunchScreen.storyboard */,
-				C1C863221E623E120024669F /* Info.plist */,
+				C1C8631A1E623E120024669F /* Main.storyboard */,
+				C1907CAE1E689C33000ED2A3 /* Resources */,
+				C1907CB11E69184C000ED2A3 /* MenuVC.swift */,
 			);
 			path = "Attention Test";
+			sourceTree = "<group>";
+		};
+		CAC0DFA9B93741ECD9273E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAFB9B1DF976374587AA885 /* Pods-Attention Test.debug.xcconfig */,
+				ABA0E89609A1D63B5F5D0AD9 /* Pods-Attention Test.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C863251E623E120024669F /* Build configuration list for PBXNativeTarget "Attention Test" */;
 			buildPhases = (
+				787504412BA819F2652A0524 /* [CP] Check Pods Manifest.lock */,
 				C1C8630F1E623E120024669F /* Sources */,
 				C1C863101E623E120024669F /* Frameworks */,
 				C1C863111E623E120024669F /* Resources */,
+				E8AB12FDDBEB111842FFCE57 /* [CP] Embed Pods Frameworks */,
+				551074D59EFF8EFD0ADD7C48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +165,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 28SGD9V9Q9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,13 +196,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1907CB01E689C33000ED2A3 /* Localizable.strings in Resources */,
 				C1C863211E623E120024669F /* LaunchScreen.storyboard in Resources */,
+				C1907CAF1E689C33000ED2A3 /* ButtonTitles.strings in Resources */,
 				C1C8631E1E623E120024669F /* Assets.xcassets in Resources */,
 				C1C8631C1E623E120024669F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		551074D59EFF8EFD0ADD7C48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Attention Test/Pods-Attention Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787504412BA819F2652A0524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AB12FDDBEB111842FFCE57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Attention Test/Pods-Attention Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1C8630F1E623E120024669F /* Sources */ = {
@@ -139,16 +261,50 @@
 			files = (
 				C1C863191E623E120024669F /* ViewController.swift in Sources */,
 				C1C863171E623E120024669F /* AppDelegate.swift in Sources */,
+				C1907CB21E69184C000ED2A3 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C1907CA31E689C33000ED2A3 /* ButtonTitles.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1907C9B1E689C33000ED2A3 /* en */,
+				C1907C9C1E689C33000ED2A3 /* fr */,
+				C1907C9D1E689C33000ED2A3 /* de */,
+				C1907C9E1E689C33000ED2A3 /* es */,
+				C1907C9F1E689C33000ED2A3 /* it */,
+				C1907CA01E689C33000ED2A3 /* ja */,
+				C1907CA11E689C33000ED2A3 /* zh-Hans */,
+				C1907CA21E689C33000ED2A3 /* he */,
+			);
+			name = ButtonTitles.strings;
+			sourceTree = "<group>";
+		};
+		C1907CAD1E689C33000ED2A3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1907CA41E689C33000ED2A3 /* en */,
+				C1907CA51E689C33000ED2A3 /* fr */,
+				C1907CA61E689C33000ED2A3 /* de */,
+				C1907CA71E689C33000ED2A3 /* es */,
+				C1907CA81E689C33000ED2A3 /* it */,
+				C1907CA91E689C33000ED2A3 /* ja */,
+				C1907CAA1E689C33000ED2A3 /* zh-Hans */,
+				C1907CAB1E689C33000ED2A3 /* he */,
+				C1907CAC1E689C33000ED2A3 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C1C8631A1E623E120024669F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C1C8631B1E623E120024669F /* Base */,
+				C1907C961E689818000ED2A3 /* fr */,
+				C1907C991E689886000ED2A3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,6 +313,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C1C863201E623E120024669F /* Base */,
+				C1907C971E689818000ED2A3 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -218,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -259,10 +418,13 @@
 		};
 		C1C863261E623E120024669F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAFB9B1DF976374587AA885 /* Pods-Attention Test.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28SGD9V9Q9;
 				INFOPLIST_FILE = "Attention Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justindoan.Attention-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +434,13 @@
 		};
 		C1C863271E623E120024669F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA0E89609A1D63B5F5D0AD9 /* Pods-Attention Test.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28SGD9V9Q9;
 				INFOPLIST_FILE = "Attention Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justindoan.Attention-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +467,7 @@
 				C1C863271E623E120024669F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

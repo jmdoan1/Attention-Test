@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "IFi-fv-sQy"; */
+"IFi-fv-sQy.text" = "00:00:00";
+
+/* Class = "UISegmentedControl"; J5x-h6-ehP.segmentTitles[0] = "5"; ObjectID = "J5x-h6-ehP"; */
+"J5x-h6-ehP.segmentTitles[0]" = "5";
+
+/* Class = "UISegmentedControl"; J5x-h6-ehP.segmentTitles[1] = "10"; ObjectID = "J5x-h6-ehP"; */
+"J5x-h6-ehP.segmentTitles[1]" = "10";
+
+/* Class = "UISegmentedControl"; J5x-h6-ehP.segmentTitles[2] = "15"; ObjectID = "J5x-h6-ehP"; */
+"J5x-h6-ehP.segmentTitles[2]" = "15";
+
+/* Class = "UISegmentedControl"; J5x-h6-ehP.segmentTitles[3] = "20"; ObjectID = "J5x-h6-ehP"; */
+"J5x-h6-ehP.segmentTitles[3]" = "20";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VPU-Dv-MtV"; */
+"VPU-Dv-MtV.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cQB-6R-7xU"; */
+"cQB-6R-7xU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "pB2-Q5-6qi"; */
+"pB2-Q5-6qi.normalTitle" = "START";
